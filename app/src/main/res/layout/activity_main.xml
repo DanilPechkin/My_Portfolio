@@ -12,7 +12,8 @@
     <androidx.fragment.app.FragmentContainerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/nav_host_fragment" />
+        android:id="@+id/nav_host_fragment"
+        android:name="com.example.myportfolio.AboutFragment"/>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"

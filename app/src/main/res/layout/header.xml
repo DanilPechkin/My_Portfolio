@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:text="@string/email_address"
         android:textColor="#D24EE1B7"
-        android:textSize="13sp"
+        android:textSize="14sp"
         android:autoLink="email"/>
 
 
