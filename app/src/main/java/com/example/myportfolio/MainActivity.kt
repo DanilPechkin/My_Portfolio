@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         toggle.syncState()
         navigationView.setNavigationItemSelectedListener(this)
 
+        navigationView.setCheckedItem(R.id.nav_about)
+
     }
 
     override fun onBackPressed() {

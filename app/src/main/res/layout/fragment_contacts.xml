@@ -3,12 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_edu"
     tools:context=".ContactsFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/text_color"
+        android:padding="10dp"
         android:textSize="20sp"
         android:text="@string/contacts_text"
         android:autoLink="all" />
